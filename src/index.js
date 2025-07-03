@@ -17,7 +17,7 @@ connectDB()
       console.log(`server is running`, port);
     });
   })
-  .cartch((err) => {
+  .catch((err) => {
     console.log("Mongo db connection failed", err);
   });
 
